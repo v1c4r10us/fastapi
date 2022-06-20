@@ -4,7 +4,7 @@ from config.db import conn
 from docs import tags_metadata
 
 app = FastAPI(
-    title="RestAPI with python",
+    title="RestAPI",
     description="A simple API with fastapi & mongodb atlas",
     version="0.0.1",
     openapi_tags=tags_metadata
